@@ -64,6 +64,16 @@ module.exports = ({ env }) => {
         ssl: env.bool("DATABASE_SSL", true),
       },
     },
+    sqlite: {
+      connection: {
+        filename: path.join(
+          __dirname,
+          "..",
+          env("DATABASE_FILENAME", "data.db")
+        ),
+      },
+      useNullAsDefault: true,
+    },
   };
 
   return {
