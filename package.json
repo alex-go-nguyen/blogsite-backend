@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.4",
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi/plugin-documentation": "4.10.5",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.10.5",
@@ -11,7 +10,8 @@
     "better-sqlite3": "8.0.1",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
   },
   "name": "backend",
   "private": true,

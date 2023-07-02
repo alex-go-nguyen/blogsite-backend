@@ -46,18 +46,14 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "articles"
     },
-    "content": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbarBaloon"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
-    },
     "comments": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "article"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

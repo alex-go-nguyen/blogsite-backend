@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-24T08:39:41.867Z"
+    "x-generation-date": "2023-07-02T10:58:37.628Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -134,9 +134,6 @@
                 ],
                 "example": "string or id"
               },
-              "content": {
-                "type": "string"
-              },
               "comments": {
                 "type": "array",
                 "items": {
@@ -150,6 +147,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "content": {
+                "type": "string"
               }
             }
           }
@@ -1459,9 +1459,6 @@
                                         }
                                       }
                                     },
-                                    "content": {
-                                      "type": "string"
-                                    },
                                     "comments": {
                                       "type": "object",
                                       "properties": {
@@ -1481,6 +1478,9 @@
                                           }
                                         }
                                       }
+                                    },
+                                    "content": {
+                                      "type": "string"
                                     },
                                     "createdAt": {
                                       "type": "string",
@@ -1739,9 +1739,6 @@
               }
             }
           },
-          "content": {
-            "type": "string"
-          },
           "comments": {
             "type": "object",
             "properties": {
@@ -1761,6 +1758,9 @@
                 }
               }
             }
+          },
+          "content": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -3221,9 +3221,6 @@
                             }
                           }
                         },
-                        "content": {
-                          "type": "string"
-                        },
                         "comments": {
                           "type": "object",
                           "properties": {
@@ -3243,6 +3240,9 @@
                               }
                             }
                           }
+                        },
+                        "content": {
+                          "type": "string"
                         },
                         "createdAt": {
                           "type": "string",
@@ -4766,9 +4766,6 @@
                           }
                         }
                       },
-                      "content": {
-                        "type": "string"
-                      },
                       "comments": {
                         "type": "object",
                         "properties": {
@@ -4788,6 +4785,9 @@
                             }
                           }
                         }
+                      },
+                      "content": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
